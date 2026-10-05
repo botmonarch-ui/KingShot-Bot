@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://botmonarch-ui.github.io/KingShot-Bot/sitemap.xml

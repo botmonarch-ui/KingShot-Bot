@@ -4,7 +4,7 @@
 
 <!-- Add a screenshot of the app here: ![Phantom Kingshot bot dashboard](docs/screenshot-home.png) -->
 
-**[⬇ Download the latest version](../../releases/latest)** · Windows 10/11 · Free plan included
+**[⬇ Download the latest version](../../releases/latest)** · Windows 10/11 · Free plan included · [Website](https://botmonarch-ui.github.io/KingShot-Bot/)
 
 ---
 
@@ -53,7 +53,11 @@ Windows may show *"Windows protected your PC"* for a new app. Click **More info 
 
 **Is this Kingshot bot free?** Yes. The free plan never expires: it runs the daily reward features for up to 4 hours of bot time per game day.
 
-**Does it work without BlueStacks?** Not yet. Phantom runs Kingshot in BlueStacks 5 on Windows.
+**Does it work without BlueStacks?** Not yet. Phantom runs Kingshot in BlueStacks 5 on Windows. LDPlayer, MuMu and other emulators are not supported yet.
+
+**Is there a Kingshot bot for Android or iPhone?** Phantom runs on a Windows PC only. It plays the Android version of Kingshot inside BlueStacks, so your phone stays free.
+
+**Is Phantom a Kingshot macro or a bot?** A bot. A macro replays fixed taps; Phantom reads the screen, decides what to do next and recovers when a popup or an event gets in the way. That is what lets it auto farm Kingshot for hours without you watching.
 
 **Can I get banned?** Any automation breaks most games' terms, and the publisher can act on accounts that use it. Phantom plays at human speed with random pauses, but no bot can promise zero risk.
 
