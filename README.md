@@ -4,7 +4,7 @@
 
 <!-- Add a screenshot of the app here: ![Phantom Kingshot bot dashboard](docs/screenshot-home.png) -->
 
-**[⬇ Download the latest version](../../releases/latest)** · Windows 10/11 · Free plan included · [Website](https://botmonarch-ui.github.io/KingShot-Bot/)
+**[⬇ Download the latest version](../../releases/latest)** · Windows 10/11 · Free plan included · [Website](https://botmonarch-ui.github.io/KingShot-Bot/) · [Discord](https://discord.gg/7REY6Ur49)
 
 ---
 
@@ -51,7 +51,11 @@ Windows may show *"Windows protected your PC"* for a new app. Click **More info 
 
 ## FAQ
 
+**Is there a bot to play Kingshot?** Yes. Phantom is a Kingshot bot for Windows PC. It plays Kingshot inside BlueStacks: it claims daily rewards, runs Conquest and Intel missions, upgrades heroes and follows the chapter quests.
+
 **Is this Kingshot bot free?** Yes. The free plan never expires: it runs the daily reward features for up to 4 hours of bot time per game day.
+
+**What are the system requirements?** Windows 10 or 11 and BlueStacks 5 with ADB turned on. Each account runs in its own BlueStacks instance, so more accounts need more RAM.
 
 **Does it work without BlueStacks?** Not yet. Phantom runs Kingshot in BlueStacks 5 on Windows. LDPlayer, MuMu and other emulators are not supported yet.
 
@@ -65,7 +69,7 @@ Windows may show *"Windows protected your PC"* for a new app. Click **More info 
 
 ## Support
 
-Questions and bug reports: [open an issue](../../issues).
+Questions, help and updates: join the [Phantom Discord server](https://discord.gg/7REY6Ur49). Bug reports: [open an issue](../../issues).
 
 ---
 

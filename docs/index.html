@@ -24,6 +24,62 @@
   "downloadUrl": "https://github.com/botmonarch-ui/KingShot-Bot/releases/latest"
 }
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is there a bot to play Kingshot?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Phantom is a Kingshot bot for Windows PC. It plays Kingshot inside BlueStacks: it claims daily rewards, runs Conquest and Intel missions, upgrades heroes and follows the chapter quests."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is the Kingshot bot free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. The free plan runs the daily reward features for up to 4 hours of bot time per game day, with no expiry."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What are the system requirements?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Windows 10 or 11 and BlueStacks 5 with ADB turned on. Each account runs in its own BlueStacks instance, so more accounts need more RAM."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it modify the game?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. It only reads the screen and taps through ADB, like a player."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can my account be banned?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Automation breaks most games' terms, and no bot can promise zero risk. Phantom plays at human speed with random pauses."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I get support?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Join the Phantom Discord server or open an issue on GitHub."
+   }
+  }
+ ]
+}
+</script>
 <style>
   :root { --bg:#ffffff; --fg:#14171f; --muted:#5b6475; --card:#f4f6fa; --line:#e2e6ee; --accent:#4f46e5; --accent-fg:#ffffff; }
   @media (prefers-color-scheme: dark) {
@@ -41,6 +97,7 @@
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
   .card h3 { margin:0 0 6px; font-size:16px; }
   .card p { margin:0; color:var(--muted); font-size:14px; }
+  .btn.alt { background:transparent; color:var(--accent); border:2px solid var(--accent); padding:10px 20px; margin-left:8px; }
   ol li { margin-bottom: 6px; }
   a { color: var(--accent); }
   footer { margin-top:48px; color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; }
@@ -50,7 +107,7 @@
 <main>
   <h1>Kingshot Bot for PC</h1>
   <p class="lead">Phantom is a free Kingshot bot for Windows. It plays your daily chores in BlueStacks: quests, rewards, Conquest, Intel missions and hero upgrades, on as many accounts as you run.</p>
-  <p><a class="btn" href="https://github.com/botmonarch-ui/KingShot-Bot/releases/latest">Download for Windows</a><span class="sub">Free plan · Windows 10/11 · BlueStacks 5</span></p>
+  <p><a class="btn" href="https://github.com/botmonarch-ui/KingShot-Bot/releases/latest">Download for Windows</a><a class="btn alt" href="https://discord.gg/7REY6Ur49">Join Discord</a><span class="sub">Free plan · Windows 10/11 · BlueStacks 5</span></p>
 
   <h2>What the Kingshot auto farm bot does</h2>
   <div class="grid">
@@ -69,10 +126,13 @@
   </ol>
 
   <h2>Questions</h2>
+  <p><strong>Is there a bot to play Kingshot?</strong> Yes. Phantom is a Kingshot bot for Windows PC. It plays Kingshot inside BlueStacks: it claims daily rewards, runs Conquest and Intel missions, upgrades heroes and follows the chapter quests.</p>
   <p><strong>Is the Kingshot bot free?</strong> Yes. The free plan runs the daily reward features for up to 4 hours of bot time per game day, with no expiry.</p>
+  <p><strong>What are the system requirements?</strong> Windows 10 or 11 and BlueStacks 5 with ADB turned on. Each account runs in its own BlueStacks instance, so more accounts need more RAM.</p>
   <p><strong>Does it modify the game?</strong> No. It only reads the screen and taps through ADB, like a player.</p>
   <p><strong>Can my account be banned?</strong> Automation breaks most games' terms, and no bot can promise zero risk. Phantom plays at human speed with random pauses.</p>
-  <p>Source, releases and support: <a href="https://github.com/botmonarch-ui/KingShot-Bot">github.com/botmonarch-ui/KingShot-Bot</a></p>
+  <p><strong>How do I get support?</strong> Join the <a href="https://discord.gg/7REY6Ur49">Phantom Discord server</a> or open an issue on <a href="https://github.com/botmonarch-ui/KingShot-Bot/issues">GitHub</a>.</p>
+  <p>Source and releases: <a href="https://github.com/botmonarch-ui/KingShot-Bot">github.com/botmonarch-ui/KingShot-Bot</a> · Community: <a href="https://discord.gg/7REY6Ur49">Discord</a></p>
 
   <footer>Phantom is an independent tool, not affiliated with or endorsed by Century Games or Kingshot. "Kingshot" is a trademark of its owner.</footer>
 </main>
